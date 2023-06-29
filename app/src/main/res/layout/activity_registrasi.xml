@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:orientation="vertical"
+    tools:context=".RegistrasiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Registrasi"
+        android:textSize="30sp" />
+
+    <EditText
+        android:textSize="15sp"
+        android:id="@+id/edt_nama_lengkap"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edtx"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Nama lengkap"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_edtx"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="10dp"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/edt_no_hp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_edtx"
+        android:ems="10"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins"
+        android:hint="Nomor Handphone"
+        android:inputType="number"
+        android:padding="10dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:hintEnabled="false"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edtx"
+            android:fontFamily="@font/poppins"
+            android:hint="@string/password"
+            android:textSize="15sp"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:hintEnabled="false"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edtx"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:hint="Konfirmasi Password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/tombol"
+        android:fontFamily="@font/poppins"
+        android:text="Mendaftar"
+        android:textColor="@color/white"
+        app:cornerRadius="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="5"
+            android:background="@drawable/bg_line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Atau Daftar Menggunakan"
+            android:textColor="@color/grey" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_weight="5"
+            android:background="@drawable/bg_line" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_tb_google"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/icon_gugel"
+        android:fontFamily="@font/poppins"
+        android:text="Google"
+        android:textColor="@color/red"
+        app:cornerRadius="8dp"
+        app:strokeColor="@color/red"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/icon_fb"
+        android:fontFamily="@font/poppins"
+        android:text="Facebook"
+        android:textColor="@color/blue"
+        app:cornerRadius="8dp"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="3dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Sudah punya akun? " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Silahkan " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="masuk"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+</LinearLayout>
