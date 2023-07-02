@@ -160,11 +160,13 @@
             android:text="@string/belum_punya_akun" />
 
         <TextView
+            android:layout_marginStart="3dp"
             android:id="@+id/tv_daftar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
             android:text="@string/mendaftar"
+            android:layout_marginEnd="3dp"
             android:textColor="@color/blue" />
 
         <TextView
