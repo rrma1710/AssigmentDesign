@@ -30,6 +30,7 @@
         app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/edt_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_edtx"
@@ -48,6 +49,7 @@
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_edtx"
