@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
         android:gravity="center"
-        android:text="Chat-Mi"
+        android:text="@string/chat_mi"
         android:textSize="30sp" />
 
     <ImageView
@@ -67,7 +67,7 @@
         android:layout_marginBottom="5dp"
         android:gravity="end"
         android:fontFamily="@font/poppins"
-        android:text="Lupa Password?" />
+        android:text="@string/lupa_password" />
 
     <Button
         android:id="@+id/btn_masuk"
@@ -77,7 +77,7 @@
         android:layout_marginEnd="30dp"
         android:backgroundTint="@color/tombol"
         android:fontFamily="@font/poppins"
-        android:text="Masuk"
+        android:text="@string/masuk"
         android:textColor="@color/white"
         app:cornerRadius="8dp" />
 
@@ -102,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
-            android:text="Atau Masuk Menggunakan"
+            android:text="@string/atau_masuk_menggunakan"
             android:textColor="@color/grey" />
 
         <View
@@ -123,7 +123,7 @@
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/icon_gugel"
         android:fontFamily="@font/poppins"
-        android:text="Google"
+        android:text="@string/google"
         android:textColor="@color/red"
         app:cornerRadius="8dp"
         app:strokeColor="@color/red"
@@ -138,7 +138,7 @@
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/icon_fb"
         android:fontFamily="@font/poppins"
-        android:text="Facebook"
+        android:text="@string/facebook"
         android:textColor="@color/blue"
         app:cornerRadius="8dp"
         app:strokeColor="@color/blue"
@@ -157,21 +157,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
-            android:text="Belum punya akun? " />
+            android:text="@string/belum_punya_akun" />
 
         <TextView
             android:id="@+id/tv_daftar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
-            android:text="Mendaftar "
+            android:text="@string/mendaftar"
             android:textColor="@color/blue" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
-            android:text="sekarang" />
+            android:text="@string/sekarang" />
 
     </LinearLayout>
 </LinearLayout>
