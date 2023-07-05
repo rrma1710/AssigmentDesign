@@ -11,4 +11,10 @@
     <string name="chat_mi">Chat-Mi</string>
     <string name="sekarang">sekarang</string>
     <string name="back">esc</string>
+    <string name="simpan">Simpan</string>
+    <string name="alamat">Alamat</string>
+    <string name="agama">Agama</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="titik2">:</string>
 </resources>

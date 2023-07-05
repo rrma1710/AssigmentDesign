@@ -13,6 +13,11 @@
         android:theme="@style/Theme.AssigmentDesign"
         tools:targetApi="31">
         <activity
+            android:name=".activity.dashboard.InputDataActivity"
+            android:exported="true" >
+
+        </activity>
+        <activity
             android:name=".activity.dashboard.CalculatorActivity"
             android:exported="false" />
         <activity

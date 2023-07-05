@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.vsga.assigmentdesign.R
 import com.vsga.assigmentdesign.activity.dashboard.CalculatorActivity
+import com.vsga.assigmentdesign.activity.dashboard.InputDataActivity
 import com.vsga.assigmentdesign.activity.dashboard.ListActivity
 import com.vsga.assigmentdesign.databinding.ActivityDashboardBinding
 
@@ -18,6 +19,7 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
 
         binding.cvListChat.setOnClickListener(this)
         binding.cvKalkulator.setOnClickListener(this)
+        binding.cvInputData.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -29,6 +31,10 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.cv_kalkulator -> {
                 val intent = Intent(this, CalculatorActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.cv_input_data -> {
+                val intent = Intent(this, InputDataActivity::class.java)
                 startActivity(intent)
             }
         }
