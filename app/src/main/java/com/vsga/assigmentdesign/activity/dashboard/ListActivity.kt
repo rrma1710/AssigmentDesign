@@ -1,18 +1,21 @@
-package com.vsga.assigmentdesign
+package com.vsga.assigmentdesign.activity.dashboard
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.vsga.assigmentdesign.R
 import com.vsga.assigmentdesign.adapter.ItemAdapter
 import com.vsga.assigmentdesign.databinding.ActivityDashboardBinding
+import com.vsga.assigmentdesign.databinding.ActivityListBinding
 import com.vsga.assigmentdesign.model.ChatModel
 
-class DashboardActivity : AppCompatActivity() {
-    lateinit var binding: ActivityDashboardBinding
+class ListActivity : AppCompatActivity() {
+    lateinit var binding: ActivityListBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDashboardBinding.inflate(layoutInflater)
+        binding = ActivityListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         val itemList: List<ChatModel> = listOf(
             ChatModel(
                 R.drawable.dua,

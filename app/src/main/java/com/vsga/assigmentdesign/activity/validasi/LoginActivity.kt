@@ -1,17 +1,15 @@
-package com.vsga.assigmentdesign
+package com.vsga.assigmentdesign.activity.validasi
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MotionEvent
-import android.view.View
-import com.vsga.assigmentdesign.databinding.ActivityMainBinding
+import com.vsga.assigmentdesign.databinding.ActivityLoginBinding
 
-class MainActivity : AppCompatActivity() {
-    lateinit var binding: ActivityMainBinding
+class LoginActivity : AppCompatActivity() {
+    lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater) // inflate layout
+        binding = ActivityLoginBinding.inflate(layoutInflater) // inflate layout
         setContentView(binding.root) // set layout
 
 

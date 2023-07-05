@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.validasi.LoginActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -81,68 +81,68 @@
         android:textColor="@color/white"
         app:cornerRadius="8dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="8dp"
-        android:orientation="horizontal">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:orientation="horizontal">-->
 
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="5dp"
-            android:layout_gravity="center"
-            android:layout_marginEnd="4dp"
-            android:layout_weight="5"
-            android:background="@drawable/bg_line" />
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="5dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginEnd="4dp"-->
+<!--            android:layout_weight="5"-->
+<!--            android:background="@drawable/bg_line" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins"
-            android:text="@string/atau_masuk_menggunakan"
-            android:textColor="@color/grey" />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/poppins"-->
+<!--            android:text="@string/atau_masuk_menggunakan"-->
+<!--            android:textColor="@color/grey" />-->
 
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="5dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="4dp"
-            android:layout_weight="5"
-            android:background="@drawable/bg_line" />
-    </LinearLayout>
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="5dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_weight="5"-->
+<!--            android:background="@drawable/bg_line" />-->
+<!--    </LinearLayout>-->
 
-    <Button
-        android:id="@+id/btn_tb_google"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:backgroundTint="@color/white"
-        android:drawableLeft="@drawable/icon_gugel"
-        android:fontFamily="@font/poppins"
-        android:text="@string/google"
-        android:textColor="@color/red"
-        app:cornerRadius="8dp"
-        app:strokeColor="@color/red"
-        app:strokeWidth="3dp" />
+<!--    <Button-->
+<!--        android:id="@+id/btn_tb_google"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:drawableLeft="@drawable/icon_gugel"-->
+<!--        android:fontFamily="@font/poppins"-->
+<!--        android:text="@string/google"-->
+<!--        android:textColor="@color/red"-->
+<!--        app:cornerRadius="8dp"-->
+<!--        app:strokeColor="@color/red"-->
+<!--        app:strokeWidth="3dp" />-->
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="30dp"
-        android:backgroundTint="@color/white"
-        android:drawableLeft="@drawable/icon_fb"
-        android:fontFamily="@font/poppins"
-        android:text="@string/facebook"
-        android:textColor="@color/blue"
-        app:cornerRadius="8dp"
-        app:strokeColor="@color/blue"
-        app:strokeWidth="3dp" />
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:drawableLeft="@drawable/icon_fb"-->
+<!--        android:fontFamily="@font/poppins"-->
+<!--        android:text="@string/facebook"-->
+<!--        android:textColor="@color/blue"-->
+<!--        app:cornerRadius="8dp"-->
+<!--        app:strokeColor="@color/blue"-->
+<!--        app:strokeWidth="3dp" />-->
 
     <LinearLayout
         android:layout_width="match_parent"

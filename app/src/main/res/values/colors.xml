@@ -12,4 +12,7 @@
     <color name="grey">#C0C0C0</color>
     <color name="red">#E74C3C</color>
     <color name="blue">#3498DB</color>
+    <color name="almostBlack">#222</color>
+    <color name="orange">#FFDC8823</color>
+    <color name="color_button_number">#504F4F</color>
 </resources>

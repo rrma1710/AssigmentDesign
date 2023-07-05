@@ -13,13 +13,19 @@
         android:theme="@style/Theme.AssigmentDesign"
         tools:targetApi="31">
         <activity
-            android:name=".DashboardActivity"
+            android:name=".activity.dashboard.CalculatorActivity"
             android:exported="false" />
         <activity
-            android:name=".RegistrasiActivity"
+            android:name=".activity.dashboard.ListActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.validasi.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.validasi.RegistrasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.validasi.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
