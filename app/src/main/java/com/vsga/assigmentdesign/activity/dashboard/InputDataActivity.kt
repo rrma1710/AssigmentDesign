@@ -1,9 +1,12 @@
 package com.vsga.assigmentdesign.activity.dashboard
 
+import android.graphics.text.LineBreaker.JUSTIFICATION_MODE_INTER_WORD
+import android.os.Build
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.RadioButton
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.vsga.assigmentdesign.R
 import com.vsga.assigmentdesign.databinding.ActivityInputDataBinding
@@ -20,6 +23,7 @@ class InputDataActivity : AppCompatActivity() {
     var selectedSuperStar: String? = null
     var submit: Button? = null
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityInputDataBinding.inflate(layoutInflater)
