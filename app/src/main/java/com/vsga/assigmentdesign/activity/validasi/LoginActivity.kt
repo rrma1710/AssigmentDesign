@@ -1,5 +1,6 @@
 package com.vsga.assigmentdesign.activity.validasi
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +8,8 @@ import com.vsga.assigmentdesign.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
     lateinit var binding: ActivityLoginBinding
+
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater) // inflate layout
@@ -14,9 +17,9 @@ class LoginActivity : AppCompatActivity() {
 
 
         binding.btnMasuk.setOnClickListener {
-
-            val username = binding.edtUsername.text.toString()
-            val password = binding.edtPassword.text.toString()
+//
+//            val username = binding.edtUsername.text.toString()
+//            val password = binding.edtPassword.text.toString()
 
 //            if (username.isEmpty()) {
 //                binding.edtUsername.error = "Username tidak boleh kosong"
@@ -36,7 +39,7 @@ class LoginActivity : AppCompatActivity() {
 //            }
 
             val intent = Intent(this, DashboardActivity::class.java)
-                startActivity(intent)
+            startActivity(intent)
         }
 
         binding.tvDaftar.setOnClickListener {
